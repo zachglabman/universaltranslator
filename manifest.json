@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "IPA Transcriber",
-  "description": "GPT-3 powered IPA Transcriber",
+  "name": "Lingua: Universal Translator",
+  "description": "GPT-3 powered web translator",
   "version": "1.0",
   "options_page": "options.html",
   "permissions": ["activeTab", "storage", "scripting", "tabs"],
