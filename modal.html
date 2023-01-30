@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IPA Transcription</title>
+    <style>
+      #modal {
+        height: 300px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+      h2 {
+        text-align: center;
+      }
+      #main {
+        align-items: center;
+        justify-content: center;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+      }
+      .text-data {
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="modal">
+      <h2>Lingua</h2>
+      <div class="text-data">
+        <p>Original Text: <span id="original"></span></p>
+        <p>Result: <span id="ipa"></span></p>
+      </div>
+      <div class="buttons">
+        <select id="language">
+          <option value="International Phonetic Alphabet">IPA</option>
+          <option value="Spanish">Spanish</option>
+          <option value="French">French</option>
+          <option value="German">German</option>
+          <option value="Japanese">Japanese</option>
+          <option value="Chinese">Chinese</option>
+        </select>
+        <button id="transcribe" type="submit">Transcribe</button>
+      </div>
+    </div>
+    <script src="background.js"></script>
+  </body>
+</html>
